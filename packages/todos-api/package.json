@@ -1,0 +1,19 @@
+{
+  "name": "todos-api",
+  "version": "0.0.0",
+  "description": "todos-api",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^7.2.0"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:4872/"
+  }
+}
